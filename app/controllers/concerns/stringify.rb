@@ -10,7 +10,7 @@ class Stringify
 		if @name.blank? or @adjective.blank?
 			return "You are nothing!"
 		else
-			return "Your #{@name} is so #{@adjective}"
+			return "#{@name} is so #{@adjective}"
 		end
   end
 end
